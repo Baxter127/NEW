@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    color: #ff4f7b;
+    text-shadow: 2px 2px 4px rgba(255, 105, 135, 0.3);
+}
+
+#gifContainerImg {
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#siBtn {
+    background: #ff4081;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 4px 15px rgba(255, 64, 129, 0.3);
+}
+
+#noBtn {
+    background: #ffccbc;
+    color: #d84315;
+    font-weight: bold;
+    box-shadow: 0px 4px 15px rgba(255, 152, 0, 0.3);
+}
+
+#siBtn:hover {
+    transform: scale(1.1);
+    background: #ff80ab;
+}
+
+#noBtn:hover {
+    transform: scale(1.1);
+    background: #ff8a65;
+}
